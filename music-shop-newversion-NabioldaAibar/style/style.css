@@ -1,0 +1,142 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    width: 100% !important;
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background: url("../img/back.jpeg.jpg");
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+
+
+.hero-text h1, h3 {
+    text-align: center;
+    font-weight: 300;
+    color: white;
+}
+
+.hero-text h3 {
+    font-size: 36px;
+}
+
+.hero-text h1 {
+    font-size: 56px;
+}
+
+.products {
+    width: 100% !important;
+    height: 100vh !important;
+    display: flex;
+    justify-content: center !important;
+    flex-direction: column !important;
+    margin-bottom: 300px !important;
+}
+
+.image1 {
+    width: 350px !important;
+    margin-right: 50px !important;
+}
+
+.products h1 {
+    text-align: center;
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+
+.product {
+    margin-top: 50px !important;
+    display: flex !important;
+    justify-content: center;
+}
+
+.image1 img {
+    width: 400px;
+    height: 500px;
+}
+
+.image2 img {
+    width: 400px;
+    height: 500px;
+}
+
+.image3 img {
+    width: 400px;
+    height: 500px;
+}
+
+.f {
+    margin-bottom: 200px !important;
+    width: 60%;
+}
+.threep{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+
+
+}
+.threep-column{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+
+}
+.threep-column img{
+    width: 10%;
+
+}
+.threeplayer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+
+}
+.threeplayer:hover{
+    background: rgba(4,9,30,0.7);
+    /* background:  rgba(226,0,0,0.7); */
+}
+.threeplayer h3{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+
+}
+.threeplayer p{
+    width: 100%;
+    font-weight: 300;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 1s;
+}
+.threeplayer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+
+}
